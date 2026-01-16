@@ -1,0 +1,21 @@
+# Игнорирай настройките на PyCharm
+.idea/
+*.iml
+
+# Игнорирай настройките на Cursor (VS Code базиран)
+.vscode/
+
+# Игнорирай виртуалната среда
+.venv/
+venv/
+ENV/
+env/
+
+# Игнорирай кеш файловете на Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Игнорирай файловете на история
+history.json
+*.png
