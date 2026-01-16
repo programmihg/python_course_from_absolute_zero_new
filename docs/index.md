@@ -1,17 +1,10 @@
-# Welcome to MkDocs
+# Добре дошли в моя Python Дневник
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Този сайт е създаден, за да проследява напредъка ми от "Абсолютна нула" до професионално ниво.
 
-## Commands
+### ️ Какво уча в момента?
+* **Основи на средата**: Настройка на PyCharm, виртуални среди и GitHub.
+* **Синтаксис**: Променливи, типове данни и логика.
+* **Автоматизация**: Използване на MkDocs за преговор.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+> "Програмирането не е в писането на код, а в решаването на проблеми."
