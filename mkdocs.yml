@@ -1,0 +1,13 @@
+site_name: Моят Python Преговор
+theme:
+  name: material  # Това е модерната тема, която прилича на сайта на Microsoft
+  language: bg    # Настройваме интерфейса на български
+  features:
+    - navigation.sections  # Групиране на уроците в менюто
+    - search.highlight     # Подсветка при търсене
+
+nav:
+  - Начало: index.md
+  - Въведение в Python:
+      - Защо Python?: intro/why_python.md
+      - Терминал и ОС: intro/terminal.md
