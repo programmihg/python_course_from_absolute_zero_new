@@ -9,8 +9,10 @@
       
       
       
+        <link rel="prev" href="github_guide.html">
       
-        <link rel="next" href="mkdocs_guide.html">
+      
+        <link rel="next" href="intro/why_python.html">
       
       
         
@@ -21,7 +23,7 @@
     
     
       
-        <title>Моят Python Преговор</title>
+        <title>⚠️ Често срещани грешки (Python) - Моят Python Преговор</title>
       
     
     
@@ -110,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Начало
+              ⚠️ Често срещани грешки (Python)
             
           </span>
         </div>
@@ -231,37 +233,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Начало
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="index.html" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="index.html" class="md-nav__link">
         
   
   
@@ -277,37 +252,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Съдържание">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Съдържание
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        ️ Какво уча в момента?
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -370,10 +314,37 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="common_errors.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ⚠️ Често срещани грешки (Python)
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="common_errors.html" class="md-nav__link md-nav__link--active">
         
   
   
@@ -389,6 +360,59 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Съдържание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Съдържание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Забравено двоеточие (:)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Индентация (Интервали)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Единично срещу двойно равно
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1844,17 +1868,18 @@
 
 
 
-<h1 id="python">Добре дошли в моя Python Дневник</h1>
-<p>Този сайт е създаден, за да проследява напредъка ми от "Абсолютна нула" до професионално ниво.</p>
-<h3 id="_1">️ Какво уча в момента?</h3>
+<h1 id="python">⚠️ Често срещани грешки (Python)</h1>
+<h3 id="1">1. Забравено двоеточие (<code>:</code>)</h3>
+<p>Винаги след <code>if</code>, <code>while</code> или дефиниция на функция трябва да има двоеточие.
+<em>❌ Грешно:</em> <code>if x &gt; 5</code>
+<em>✅ Правилно:</em> <code>if x &gt; 5:</code></p>
+<h3 id="2">2. Индентация (Интервали)</h3>
+<p>Python използва интервалите, за да разбере кой код към кой блок принадлежи. Винаги под <code>if</code> или <code>while</code> трябва да има точно 4 интервала (или един Tab).</p>
+<h3 id="3">3. Единично срещу двойно равно</h3>
 <ul>
-<li><strong>Основи на средата</strong>: Настройка на PyCharm, виртуални среди и GitHub.</li>
-<li><strong>Синтаксис</strong>: Променливи, типове данни и логика.</li>
-<li><strong>Автоматизация</strong>: Използване на MkDocs за преговор.</li>
+<li><code>=</code> се използва за <strong>задаване</strong> на стойност (<code>x = 10</code>).</li>
+<li><code>==</code> се използва за <strong>сравнение</strong> (<code>if x == 10:</code>).</li>
 </ul>
-<blockquote>
-<p>"Програмирането не е в писането на код, а в решаването на проблеми."</p>
-</blockquote>
 
 
 

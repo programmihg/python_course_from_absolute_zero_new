@@ -9,26 +9,28 @@
       
       
       
+        <link rel="prev" href="abstraction.html">
       
-        <link rel="next" href="mkdocs_guide.html">
+      
+        <link rel="next" href="../basics/variables.html">
       
       
         
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
     
     
       
-        <title>Моят Python Преговор</title>
+        <title>Преговор на терминала - Моят Python Преговор</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -47,9 +49,9 @@
       
     
     
-      <link rel="stylesheet" href="assets/css/flashcards.css">
+      <link rel="stylesheet" href="../assets/css/flashcards.css">
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -74,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#python" class="md-skip">
+        <a href="#terminal-review" class="md-skip">
           Към съдържанието
         </a>
       
@@ -90,7 +92,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Горен колонтитул">
-    <a href="index.html" title="Моят Python Преговор" class="md-header__button md-logo" aria-label="Моят Python Преговор" data-md-component="logo">
+    <a href="../index.html" title="Моят Python Преговор" class="md-header__button md-logo" aria-label="Моят Python Преговор" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -110,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Начало
+              Преговор на терминала
             
           </span>
         </div>
@@ -216,7 +218,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Навигация" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="index.html" title="Моят Python Преговор" class="md-nav__button md-logo" aria-label="Моят Python Преговор" data-md-component="logo">
+    <a href="../index.html" title="Моят Python Преговор" class="md-nav__button md-logo" aria-label="Моят Python Преговор" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -231,37 +233,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Начало
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="index.html" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../index.html" class="md-nav__link">
         
   
   
@@ -277,37 +252,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Съдържание">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Съдържание
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        ️ Какво уча в момента?
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -319,7 +263,7 @@
   
   
     <li class="md-nav__item">
-      <a href="mkdocs_guide.html" class="md-nav__link">
+      <a href="../mkdocs_guide.html" class="md-nav__link">
         
   
   
@@ -346,7 +290,7 @@
   
   
     <li class="md-nav__item">
-      <a href="github_guide.html" class="md-nav__link">
+      <a href="../github_guide.html" class="md-nav__link">
         
   
   
@@ -373,7 +317,7 @@
   
   
     <li class="md-nav__item">
-      <a href="common_errors.html" class="md-nav__link">
+      <a href="../common_errors.html" class="md-nav__link">
         
   
   
@@ -397,8 +341,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -421,13 +367,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
         
           
           <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
@@ -448,7 +392,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             
@@ -466,7 +410,7 @@
   
   
     <li class="md-nav__item">
-      <a href="intro/why_python.html" class="md-nav__link">
+      <a href="why_python.html" class="md-nav__link">
         
   
   
@@ -494,7 +438,7 @@
   
   
     <li class="md-nav__item">
-      <a href="intro/terminal.html" class="md-nav__link">
+      <a href="terminal.html" class="md-nav__link">
         
   
   
@@ -522,7 +466,7 @@
   
   
     <li class="md-nav__item">
-      <a href="intro/setup.html" class="md-nav__link">
+      <a href="setup.html" class="md-nav__link">
         
   
   
@@ -550,7 +494,7 @@
   
   
     <li class="md-nav__item">
-      <a href="intro/abstraction.html" class="md-nav__link">
+      <a href="abstraction.html" class="md-nav__link">
         
   
   
@@ -575,10 +519,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="intro/terminal_review.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="terminal_review.html" class="md-nav__link md-nav__link--active">
         
   
   
@@ -594,6 +547,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -677,7 +631,7 @@
   
   
     <li class="md-nav__item">
-      <a href="basics/variables.html" class="md-nav__link">
+      <a href="../basics/variables.html" class="md-nav__link">
         
   
   
@@ -705,7 +659,7 @@
   
   
     <li class="md-nav__item">
-      <a href="basics/objects.html" class="md-nav__link">
+      <a href="../basics/objects.html" class="md-nav__link">
         
   
   
@@ -733,7 +687,7 @@
   
   
     <li class="md-nav__item">
-      <a href="basics/memory.html" class="md-nav__link">
+      <a href="../basics/memory.html" class="md-nav__link">
         
   
   
@@ -761,7 +715,7 @@
   
   
     <li class="md-nav__item">
-      <a href="basics/functions.html" class="md-nav__link">
+      <a href="../basics/functions.html" class="md-nav__link">
         
   
   
@@ -858,7 +812,7 @@
   
   
     <li class="md-nav__item">
-      <a href="numbers/numbers.html" class="md-nav__link">
+      <a href="../numbers/numbers.html" class="md-nav__link">
         
   
   
@@ -886,7 +840,7 @@
   
   
     <li class="md-nav__item">
-      <a href="numbers/operators.html" class="md-nav__link">
+      <a href="../numbers/operators.html" class="md-nav__link">
         
   
   
@@ -914,7 +868,7 @@
   
   
     <li class="md-nav__item">
-      <a href="numbers/math.html" class="md-nav__link">
+      <a href="../numbers/math.html" class="md-nav__link">
         
   
   
@@ -1013,7 +967,7 @@
   
   
     <li class="md-nav__item">
-      <a href="strings/methods.html" class="md-nav__link">
+      <a href="../strings/methods.html" class="md-nav__link">
         
   
   
@@ -1041,7 +995,7 @@
   
   
     <li class="md-nav__item">
-      <a href="strings/indexing.html" class="md-nav__link">
+      <a href="../strings/indexing.html" class="md-nav__link">
         
   
   
@@ -1069,7 +1023,7 @@
   
   
     <li class="md-nav__item">
-      <a href="strings/formatting.html" class="md-nav__link">
+      <a href="../strings/formatting.html" class="md-nav__link">
         
   
   
@@ -1097,7 +1051,7 @@
   
   
     <li class="md-nav__item">
-      <a href="strings/escape.html" class="md-nav__link">
+      <a href="../strings/escape.html" class="md-nav__link">
         
   
   
@@ -1194,7 +1148,7 @@
   
   
     <li class="md-nav__item">
-      <a href="logic/booleans.html" class="md-nav__link">
+      <a href="../logic/booleans.html" class="md-nav__link">
         
   
   
@@ -1222,7 +1176,7 @@
   
   
     <li class="md-nav__item">
-      <a href="logic/logical_ops.html" class="md-nav__link">
+      <a href="../logic/logical_ops.html" class="md-nav__link">
         
   
   
@@ -1250,7 +1204,7 @@
   
   
     <li class="md-nav__item">
-      <a href="logic/conditions.html" class="md-nav__link">
+      <a href="../logic/conditions.html" class="md-nav__link">
         
   
   
@@ -1347,7 +1301,7 @@
   
   
     <li class="md-nav__item">
-      <a href="loops/while_basics.html" class="md-nav__link">
+      <a href="../loops/while_basics.html" class="md-nav__link">
         
   
   
@@ -1375,7 +1329,7 @@
   
   
     <li class="md-nav__item">
-      <a href="loops/control.html" class="md-nav__link">
+      <a href="../loops/control.html" class="md-nav__link">
         
   
   
@@ -1403,7 +1357,7 @@
   
   
     <li class="md-nav__item">
-      <a href="loops/apps.html" class="md-nav__link">
+      <a href="../loops/apps.html" class="md-nav__link">
         
   
   
@@ -1502,7 +1456,7 @@
   
   
     <li class="md-nav__item">
-      <a href="collections/tuples.html" class="md-nav__link">
+      <a href="../collections/tuples.html" class="md-nav__link">
         
   
   
@@ -1530,7 +1484,7 @@
   
   
     <li class="md-nav__item">
-      <a href="collections/lists.html" class="md-nav__link">
+      <a href="../collections/lists.html" class="md-nav__link">
         
   
   
@@ -1558,7 +1512,7 @@
   
   
     <li class="md-nav__item">
-      <a href="collections/list_methods.html" class="md-nav__link">
+      <a href="../collections/list_methods.html" class="md-nav__link">
         
   
   
@@ -1586,7 +1540,7 @@
   
   
     <li class="md-nav__item">
-      <a href="collections/pitfalls.html" class="md-nav__link">
+      <a href="../collections/pitfalls.html" class="md-nav__link">
         
   
   
@@ -1687,7 +1641,7 @@
   
   
     <li class="md-nav__item">
-      <a href="practice/atm.html" class="md-nav__link">
+      <a href="../practice/atm.html" class="md-nav__link">
         
   
   
@@ -1715,7 +1669,7 @@
   
   
     <li class="md-nav__item">
-      <a href="practice/bus.html" class="md-nav__link">
+      <a href="../practice/bus.html" class="md-nav__link">
         
   
   
@@ -1743,7 +1697,7 @@
   
   
     <li class="md-nav__item">
-      <a href="practice/url.html" class="md-nav__link">
+      <a href="../practice/url.html" class="md-nav__link">
         
   
   
@@ -1771,7 +1725,7 @@
   
   
     <li class="md-nav__item">
-      <a href="practice/palindrome.html" class="md-nav__link">
+      <a href="../practice/palindrome.html" class="md-nav__link">
         
   
   
@@ -1799,7 +1753,7 @@
   
   
     <li class="md-nav__item">
-      <a href="practice/prices.html" class="md-nav__link">
+      <a href="../practice/prices.html" class="md-nav__link">
         
   
   
@@ -1844,17 +1798,33 @@
 
 
 
-<h1 id="python">Добре дошли в моя Python Дневник</h1>
-<p>Този сайт е създаден, за да проследява напредъка ми от "Абсолютна нула" до професионално ниво.</p>
-<h3 id="_1">️ Какво уча в момента?</h3>
+<h1 id="terminal-review">Terminal Review</h1>
+<h1 id="-python-mkdocs">Този файл служи за преговор на по-специфичните команди, свързани с Python и MkDocs, които виждаме в твоя терминален прозорец.</h1>
+<h1 id="_1">Преговор на терминала</h1>
+<p>Вече успяхме да конфигурираме проекта и да пуснем локален сървър. Ето какво научихме:</p>
+<h3 id="python-mkdocs">Команди за Python и MkDocs:</h3>
 <ul>
-<li><strong>Основи на средата</strong>: Настройка на PyCharm, виртуални среди и GitHub.</li>
-<li><strong>Синтаксис</strong>: Променливи, типове данни и логика.</li>
-<li><strong>Автоматизация</strong>: Използване на MkDocs за преговор.</li>
+<li><strong>Инсталация</strong>: <code>pip install &lt;пакет&gt;</code> — добавя нови библиотеки.</li>
+<li><strong>Стартиране на документация</strong>: <code>mkdocs serve</code> — пуска локален сървър на <code>127.0.0.1:8000</code>.</li>
+<li><strong>Версия на Python</strong>: <code>python --version</code> — потвърждава, че средата е правилно настроена.</li>
 </ul>
-<blockquote>
-<p>"Програмирането не е в писането на код, а в решаването на проблеми."</p>
-</blockquote>
+<h3 id="_2">Важни пътища в твоя проект:</h3>
+<p>Твоите файлове се намират в папката <code>docs/</code>. Всичко, което промениш там, се обновява автоматично в браузъра.</p>
+<hr />
+<h2 id="_3">🧠 Упражнение: Бърз преговор</h2>
+<div class="flashcard-container">
+<div class="flashcard">
+<div class="flashcard-front">На кой адрес се вижда сайтът ни, докато mkdocs serve работи?</div>
+<div class="flashcard-back">На адрес: http://127.0.0.1:8000</div>
+</div>
+</div>
+
+<div class="flashcard-container">
+<div class="flashcard">
+<div class="flashcard-front">Как се инсталират допълнителни библиотеки в Python?</div>
+<div class="flashcard-back">С мениджъра на пакети: pip</div>
+</div>
+</div>
 
 
 
@@ -1904,12 +1874,12 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.sections", "navigation.expand", "navigation.indexes", "toc.integrate", "search.highlight"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u041a\u043e\u043f\u0438\u0440\u0430\u043d\u043e", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u0430\u0439", "search.result.more.one": "\u043e\u0449\u0435 1 \u043d\u0430 \u0442\u0430\u0437\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430", "search.result.more.other": "\u043e\u0449\u0435 # \u043d\u0430 \u0442\u0430\u0437\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430", "search.result.none": "\u041d\u044f\u043c\u0430 \u0440\u0435\u0437\u0443\u043b\u0442\u0430\u0442\u0438", "search.result.one": "1 \u0440\u0435\u0437\u0443\u043b\u0442\u0430\u0442", "search.result.other": "# \u0440\u0435\u0437\u0443\u043b\u0442\u0430\u0442\u0430", "search.result.placeholder": "\u0417\u0430\u043f\u043e\u0447\u043d\u0435\u0442\u0435 \u0434\u0430 \u043f\u0438\u0448\u0435\u0442\u0435, \u0437\u0430 \u0434\u0430 \u0442\u044a\u0440\u0441\u0438\u0442\u0435", "search.result.term.missing": "\u041b\u0438\u043f\u0441\u0432\u0430\u0449\u043e", "select.version": "\u0418\u0437\u0431\u0435\u0440\u0438 \u0432\u0435\u0440\u0441\u0438\u044f"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.sections", "navigation.expand", "navigation.indexes", "toc.integrate", "search.highlight"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u041a\u043e\u043f\u0438\u0440\u0430\u043d\u043e", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u0430\u0439", "search.result.more.one": "\u043e\u0449\u0435 1 \u043d\u0430 \u0442\u0430\u0437\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430", "search.result.more.other": "\u043e\u0449\u0435 # \u043d\u0430 \u0442\u0430\u0437\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430", "search.result.none": "\u041d\u044f\u043c\u0430 \u0440\u0435\u0437\u0443\u043b\u0442\u0430\u0442\u0438", "search.result.one": "1 \u0440\u0435\u0437\u0443\u043b\u0442\u0430\u0442", "search.result.other": "# \u0440\u0435\u0437\u0443\u043b\u0442\u0430\u0442\u0430", "search.result.placeholder": "\u0417\u0430\u043f\u043e\u0447\u043d\u0435\u0442\u0435 \u0434\u0430 \u043f\u0438\u0448\u0435\u0442\u0435, \u0437\u0430 \u0434\u0430 \u0442\u044a\u0440\u0441\u0438\u0442\u0435", "search.result.term.missing": "\u041b\u0438\u043f\u0441\u0432\u0430\u0449\u043e", "select.version": "\u0418\u0437\u0431\u0435\u0440\u0438 \u0432\u0435\u0440\u0441\u0438\u044f"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="assets/js/flashcards-logic.js"></script>
+        <script src="../assets/js/flashcards-logic.js"></script>
       
     
   </body>
