@@ -3,11 +3,38 @@ theme:
   name: material  # Това е модерната тема, която прилича на сайта на Microsoft
   language: bg    # Настройваме интерфейса на български
   features:
-    - navigation.sections  # Групиране на уроците в менюто
+    - navigation.sections  # Прави големи заглавия за всеки дял
+    - navigation.expand    # По подразбиране всичко е отворено, но може да се свива
+    - navigation.indexes   # Позволява кликване върху самото заглавие на раздела
+    - toc.integrate        # Вгражда съдържанието на страницата в страничното меню
     - search.highlight     # Подсветка при търсене
+
+# Добавете тези два раздела тук:
+extra_css:
+  - assets/css/flashcards.css
+
+extra_javascript:
+  - assets/js/flashcards-logic.js
 
 nav:
   - Начало: index.md
-  - Въведение в Python:
+  - 01. Въведение и Среда:
       - Защо Python?: intro/why_python.md
       - Терминал и ОС: intro/terminal.md
+      - Интерпретатор и IDE: intro/interpreter_ide.md
+      - Нива на абстракция: intro/abstraction_levels.md
+      - Преговор (Флаш карти): intro/terminal_review.md
+  - 02. Основи и Памет:
+      - Променливи и id(): basics/variables.md
+      - Природа на обектите: basics/objects.md
+      - Оптимизация на паметта: basics/memory.md
+  - 03. Числови типове:
+      - Integers & Floats: numbers/numbers.md
+      - Аритметични оператори: numbers/operators.md
+  - 04. Стрингове:
+      - Методи на string: strings/methods.md
+      - Indexing & Slicing: strings/indexing.md
+  - 05. Логика и Условия:
+      - Booleans & Comparison: logic/booleans.md
+      - If-Elif-Else: logic/conditions.md
+  # Продължете така за всички 8 дяла...
