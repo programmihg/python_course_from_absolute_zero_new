@@ -1,55 +1,30 @@
-# Преговор: Терминал и ОС
+# Terminal Review
+# Този файл служи за преговор на по-специфичните команди, свързани с Python и MkDocs, които виждаме в твоя терминален прозорец.
+# Преговор на терминала
 
-Автоматично генериран преговор.
+Вече успяхме да конфигурираме проекта и да пуснем локален сървър. Ето какво научихме:
+
+### Команди за Python и MkDocs:
+* **Инсталация**: `pip install <пакет>` — добавя нови библиотеки.
+* **Стартиране на документация**: `mkdocs serve` — пуска локален сървър на `127.0.0.1:8000`.
+* **Версия на Python**: `python --version` — потвърждава, че средата е правилно настроена.
+
+### Важни пътища в твоя проект:
+Твоите файлове се намират в папката `docs/`. Всичко, което промениш там, се обновява автоматично в браузъра.
 
 ---
-<div class="flashcard-container"><div class="flashcard"><div class="flashcard-front">ls / dir</div><div class="flashcard-back">Показва съдържанието на папката</div></div></div>
 
-<div class="flashcard-container"><div class="flashcard"><div class="flashcard-front">cd ..</div><div class="flashcard-back">Връща една директория нагоре</div></div></div>
-
-<div class="flashcard-container"><div class="flashcard"><div class="flashcard-front">mkdir</div><div class="flashcard-back">Създава нова папка</div></div></div>
-
-<div class="flashcard-container"><div class="flashcard"><div class="flashcard-front">PATH</div><div class="flashcard-back">Списък с папки за търсене на програми</div></div></div>
-
+## 🧠 Упражнение: Бърз преговор
 <div class="flashcard-container">
 <div class="flashcard">
-<div class="flashcard-front">Какво е Hostname?</div>
-<div class="flashcard-back">Името на компютъра в мрежата.</div>
+<div class="flashcard-front">На кой адрес се вижда сайтът ни, докато mkdocs serve работи?</div>
+<div class="flashcard-back">На адрес: http://127.0.0.1:8000</div>
 </div>
 </div>
 
 <div class="flashcard-container">
 <div class="flashcard">
-<div class="flashcard-front">Коя команда показва OS?</div>
-<div class="flashcard-back">platform.system() в Python</div>
+<div class="flashcard-front">Как се инсталират допълнителни библиотеки в Python?</div>
+<div class="flashcard-back">С мениджъра на пакети: pip</div>
 </div>
 </div>
-
-<div class="flashcard-container">
-<div class="flashcard">
-<div class="flashcard-front">Каква е моята ОС?</div>
-<div class="flashcard-back">Linux</div>
-</div>
-</div>
-
-<div class="flashcard-container">
-<div class="flashcard">
-<div class="flashcard-front">Име на хоста (Hostname):</div>
-<div class="flashcard-back">P510</div>
-</div>
-</div>
-
-<div class="flashcard-container">
-<div class="flashcard">
-<div class="flashcard-front">Текуща работна директория:</div>
-<div class="flashcard-back">/media/hristo/python_hub_st/PythonProjects/python_course_from_absolute_zero_new/01_intro_and_environment</div>
-</div>
-</div>
-
-<div class="flashcard-container">
-<div class="flashcard">
-<div class="flashcard-front">Процесорна архитектура:</div>
-<div class="flashcard-back">x86_64</div>
-</div>
-</div>
-
